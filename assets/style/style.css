@@ -120,6 +120,8 @@ header {
   list-style: none;
   gap: 56px;
   font-size: 15px;
+  transition: 0.5s linear;
+
 }
 
 .list-header a {
@@ -203,6 +205,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 1.875rem;
+  width: 18.75rem;
 }
 
 /* -----content-1----- */
