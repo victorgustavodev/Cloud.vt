@@ -1,45 +1,28 @@
 @media (max-width: 1200px) {
   .list-header {
-    list-style: none;
     gap: 2rem;
-    font-size: 15px;
   }
 
   .features {
-    display: flex;
     max-width: 50rem;
-    gap: 5.625rem;
-    margin-bottom: 5.75rem;
   }
 
   .hero img {
     width: 45rem;
     height: 27.5rem;
-    margin-top: 106px;
-    margin-bottom: 112px;
-    box-shadow: -13px 11px 14px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 2rem;
   }
 
   .content-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: var(--bg-gray);
     padding: 8rem;
     gap: 5rem;
   }
 
   .facts ul li {
-    display: flex;
-    align-items: center;
     margin: 5rem 5rem;
     gap: 1rem;
   }
 
   .main-content-2 {
-    display: flex;
     gap: 3rem;
     margin-top: 5rem;
   }
@@ -53,7 +36,6 @@
   }
 
   .main-content-2 ol {
-    display: flex;
     flex-direction: column;
     gap: 0.75rem;
   }
@@ -69,7 +51,6 @@
   }
 
   #cards {
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2.5rem;
@@ -110,7 +91,6 @@
   }
 
   .hero {
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -120,7 +100,6 @@
   }
 
   .features {
-    display: flex;
     max-width: 30rem;
     gap: 4rem;
     margin-bottom: 5.75rem;
@@ -232,12 +211,12 @@
   }
 
   .hero img {
-    width: 25rem;
-    height: 15rem;
+    width: 22rem;
+    height: 13rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
     box-shadow: rgba(0, 0, 0, 0.1) -13px 11px 14px 3px;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
   .features {
@@ -367,13 +346,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 32.5rem;
+        height: 28rem;
         background-color: var(--bg-gray);
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 0rem;
         gap: 1rem;
         padding: 0rem 2rem;
       }
+
+    .assessment h3
+      {
+        font-size: 18px;
+      }
+
+      .assessment p
+      {
+        font-size: 14px;
+      }
+
+
       
       .box-1 {
         display: flex;
@@ -436,6 +427,7 @@
         flex-direction: column;
         align-items: center;
         color: white;
+        padding: 6rem 0rem 3rem 0rem;
         gap: 2rem;
     }
 
@@ -460,18 +452,19 @@
     }
     .footer div {
         text-align: left;
-        padding: 0.5rem;
     }
     .content-footer
     {
-        margin-top: 2rem;
+        margin: 2rem 0rem;
         align-items: center;
-        margin: 1rem;
+        gap: 1rem;
+
     }
 
     .content-footer p {
         padding-bottom: 2rem;
-        width: 50%;
+        width: 70;
+        text-align: center;
     }
     
     .footer-ul-1 {
