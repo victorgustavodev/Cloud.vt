@@ -1,2 +1,2 @@
 # Cloud.vt
-Site de hospedagem para sites
+Site demonstrativo para hospedagem de sites
